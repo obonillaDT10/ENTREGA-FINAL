@@ -1,18 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+.navbar {
+  background-color: green; }
 
 main {
   height: 100vh;
   width: 100%;
-  background-image: url(./deltapredio.jpg);
-  background-size: cover;
-}
+  background-image: url(../deltapredio.jpg);
+  background-size: cover; }
 
 .description {
-  color: #fff;
+  color: white;
   width: 60%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   float: right;
@@ -22,15 +18,7 @@ main {
   padding: 20px;
   text-align: justify;
   margin-right: 20%;
-  margin-top: 360px;
-}
-
-.titulo {
-  color: goldenrod;
-  margin-bottom: 20px;
-  font-size: 150%;
-  text-align: center;
-}
+  margin-top: 360px; }
 
 footer {
   background-color: goldenrod;
@@ -40,17 +28,21 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
   padding: 20px;
-  margin-top: 30%;
-}
+  margin-top: 30%; }
+  footer i {
+    font-size: 0px;
+    letter-spacing: 10px; }
+  footer h1 {
+    color: goldenrod;
+    text-transform: uppercase; }
 
-footer i {
-  font-size: 0px;
-  letter-spacing: 10px;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-h1 {
+.titulo {
   color: goldenrod;
-  text-transform: uppercase;
-}
-
-/*# sourceMappingURL=style.css.map */
+  margin-bottom: 20px;
+  font-size: 150%;
+  text-align: center; }
