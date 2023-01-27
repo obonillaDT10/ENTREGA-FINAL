@@ -2,6 +2,7 @@
 @import "font";
 @import "navbar";
 @import "main";
+@import "cards";
 @import "footer";
 
 
@@ -10,13 +11,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
-.titulo{
-    color: goldenrod;
-    margin-bottom: 20px;
-    font-size: 150%;
-    text-align: center;
-}
-
