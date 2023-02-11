@@ -1,0 +1,35 @@
+div .formulario{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+
+    .titulo{
+        color: goldenrod;
+        margin-bottom: 20px;
+        font-size: 150%;
+        text-align: center;
+    }
+
+ .controles{
+    width: 300px;
+    padding: 10px;
+    border-radius:4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    }
+
+ .mas-info{
+    font-weight: 700;
+ }
+ .opc{
+    margin-bottom: 0px;
+ }
+
+ .comentario{
+    margin-top: 20px;
+    font-weight: 700;
+ }
+}

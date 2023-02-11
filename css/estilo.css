@@ -28,6 +28,32 @@ main {
   .cards-description p {
     color: black; }
 
+div .formulario {
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px; }
+  div .formulario .titulo {
+    color: goldenrod;
+    margin-bottom: 20px;
+    font-size: 150%;
+    text-align: center; }
+  div .formulario .controles {
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white; }
+  div .formulario .mas-info {
+    font-weight: 700; }
+  div .formulario .opc {
+    margin-bottom: 0px; }
+  div .formulario .comentario {
+    margin-top: 20px;
+    font-weight: 700; }
+
 footer {
   background-color: goldenrod;
   color: black;
